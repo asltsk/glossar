@@ -1,0 +1,275 @@
+/*Dies ist mein Grundgerüst meiner Website*/
+#wrapper{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+	/*Schrift-Stil soll Arial sein*/
+	font-family:arial;
+	/*Zeilenabstand soll 1,5 betragen*/
+	line-height: 1.5;
+	opacity: 0.95;
+}
+/*Die Hintergrundfarbe meines body-Bereiches soll ein hellgrau sein.*/
+body{
+	background-image: url("Bilder/blatt.jpg");
+	background-size: 100%;
+}
+/*Dies ist meine "Bauanleitung" für den header-Bereich*/
+header{
+	padding-top:10px;
+	padding-bottom:10px;
+	/*Die Höhe meines headers soll 50px sein*/
+	height:50px;
+	text-align:center;
+	/*Schriftgröße im header Bereich soll für HOME 60px sein*/
+	font-size:60px;
+	color:white;
+}
+
+/*Navigation soll in einer Reihe
+in die Mitte gehen*/
+nav{
+	text-align:center;
+}
+/*keine Zeichen für die Liste*/
+nav ul{
+	list-style-type:none;
+	color: white;
+}
+nav ul li a{
+	list-style-type:none;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav li{
+	display:inline;
+	margin-right:40px;
+}
+/*alle Überschriften h1, werden größer angezeigt*/
+h1{
+	color:#777;
+	text-decoration:none;
+	font-size:18px;
+}
+/*Alle h2 Überschriften sollen
+nicht unterstrichen sein, die farbe dunkel grau
+haben und 18px groß sein*/
+h2{
+	color:#777;
+	text-decoration:none;
+	font-size:18px;
+}
+/*alle Zitate werden Kursiv angezeigt*/
+q{
+	font-style:italic;
+}
+/*Alle th Elemente sollen die Farbe
+dunkel grau haben*/
+th{
+	color:#777
+}
+
+/*Mein linker Div-Container, die "Bauanleitung".*/
+section{
+	width:603px;
+	float:left;
+	padding:15px;
+	margin-top:15px;
+	margin-right:15px;
+	/*Hintergrundfarbe*/
+	background-color:#F2F2F2;
+	border:1px solid #DEDCD9;
+	/*abgerundete Ecken der Div-Container*/
+	border-radius:5px;
+	margin-bottom:15px;
+}
+/*Meine Bedingungen für einen Text(Artikel)*/
+.article{
+	/*Länge des Artikels automatisch*/
+	height:278px;
+	/*Abstand von Artikelanfang*/
+	margin-top:15px;
+	/*Abstand von Artikelende*/
+	margin-bottom:50px;
+}
+/*a Artikel soll die Schriftgröße 18px haben*/
+.article a{
+	font-size:18px;
+}
+/*Dies sind die Einstellungen meines
+rechten Div-Containers*/
+aside{
+	width:258px;
+	float:right;
+	padding:25px;
+	margin-top:15px;
+	background-color:#F2F2F2;
+	/*Der Rahmenrand soll 1px
+	Breit sein und die Farbe
+	dunkelgrau haben*/
+	border:1px solid #DEDCD9;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+/*Schriftgröße 18px und
+Innenabstand von Inhalt
+und Rahmen soll 5px sein*/
+.sidebar a{
+	font-size:18px;
+	padding:5px;
+}
+/*Der Innenabstand von Inhalt
+ und Rahmen soll 5px betragen*/
+.sidebar p{
+	padding:5px;
+}
+/*Hintergrundfarbe im Footer soll
+ein hell grau sein, runde Ecken haben,
+clear beendet das umfließen vonden Elementen*/
+ footer{
+	 background-color:#F2F2F2;
+	 border:1px solid #DEDCD9;
+	 /*gerundete Ecken*/
+	 border-radius:5px;
+	 clear:both;
+ }
+ /*Fußzeile ul soll 20px
+ Abstand auf allen Seiten habenund nicht
+ im Listenstil*/
+ footer ul{
+	float:left;
+	list-style:none;
+	padding:0px;
+	margin:20px;
+}
+footer ul li a {
+	text-decoration: none;
+}
+/*Richtet die Liste in der Fußzeile
+in einer Reihe.*/
+ footer li{
+	 margin-right:15px;
+	 display:inline;
+ }
+ /*Fußzeile p soll den Text
+ nach rechts ausrichten*/
+ footer p{
+	 text-align:right;
+	 margin-right:20px;
+	 color:#777;
+ }
+ #ueber{
+	 margin:15px;
+ }
+ #ueber h1{
+	 color:#777;
+	 padding-bottom:10px;
+ }
+ #kontakt{
+	 margin:15px;
+ }
+ /*ID Kontakt h1, soll Farbe #777
+ und einen 10px Zwischenraum zwischen
+ Elementinhalt und unterer Elementgrenze*/
+ #kontakt h1{
+	 color:#777;
+	 padding-bottom:10px;
+ }
+ /*ID Impressum soll 15px Abstand
+ auf allen Seiten haben*/
+ #impressum{
+	 margin:15px;
+ }
+ /*ID Impressum h1 soll
+ Farbe #777 haben und einen
+ 10px Zwischenraum zwischen
+ Elementinhalt und unterer Elementgrenze*/
+ #impressum h1{
+	 color:#777;
+	 padding-bottom:10px;
+ }
+ /*ID "Anmeldung" 15px Abstand
+ auf allen Seiten*/
+ #anmeldung{
+	 margin:15px;
+ }
+ /*Alle ids "Anmeldung h1" haben die Farbe #777
+ und einen Innenabstand unten von 10px*/
+ #anmeldung h1{
+	 color:#777;
+	 padding-bottom:10px;
+ }
+ /*Alle th Klassen haben die Farbe #777*/
+ .th{
+	 color:#777;
+ }
+ /*Wenn man über die Klasse test1 mit
+ der Maus rüber fährt, wird es größer*/
+ .test1:hover{
+	 font-size:30px;
+ }
+ /*Alle ids, mit dem Namen orange,
+ kriegen die Farbe orange und die Schrift ist dicker*/
+ #orange{
+	 color:#e59400;
+	 font-weight:bold;
+ }
+
+ .faq-heading{
+     border-bottom: #777;
+     padding: 20px 60px;
+ }
+ .faq-container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ }
+ .hr-line{
+   width: 60%;
+   margin: auto;
+
+ }
+ /* Style the buttons that are used to open and close the faq-page body */
+ .glossar-wort {
+     /* background-color: #eee; */
+     color: #444;
+     cursor: pointer;
+     padding: 30px 20px;
+     width: 60%;
+     border: none;
+     outline: none;
+     transition: 0.4s;
+     margin: auto;
+ }
+ .glossar-definition {
+     margin: auto;
+     /* text-align: center; */
+    width: 50%;
+    padding: auto;
+
+ }
+ /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+ .active,
+ .glossar-wort:hover {
+     background-color: #F9F9F9;
+ }
+ /* Style the faq-page panel. Note: hidden by default */
+ .glossar-definition {
+     padding: 0 18px;
+     background-color: white;
+     display: none;
+     overflow: hidden;
+ }
+ .glossar-wort:after {
+     content: '\02795';
+     /* Unicode character for "plus" sign (+) */
+     font-size: 13px;
+     color: #777;
+     float: right;
+     margin-left: 5px;
+ }
+ .active:after {
+     content: "\2796";
+     /* Unicode character for "minus" sign (-) */
+ }
