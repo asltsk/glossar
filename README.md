@@ -1,4 +1,4 @@
-# glossar
+# glossarundformel
 Arbeitet am besten mit eurem Browser, um die Schritte mitzuverfolgen
 Ich habe euch die Buchstaben bereits hinzugefügt. Orientiert euch daran. Zusätzlich habe ich euch immer zwei leere Container hinzugefügt. Da wo "Wort" bzw. in dem unterem Beispiel "Wort mit F/G" steht, fügt ihr euer Wort ein, da wo "Definition" steht, eure dazugehörige Definition. 
 Falls ihr mehr als zwei Wörter pro Buchstabe habt, könnt ihr einfach folgende passage kopieren und dann unter den dif setzten. Bitte auf die Formatierung achten.
